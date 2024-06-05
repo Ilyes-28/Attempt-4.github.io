@@ -1,0 +1,606 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    width: 100%;
+    background-color: red;
+    height: 110px;
+}
+span{
+    width: 30%;
+    background-color: green;
+    height: 110px;
+    float: left;
+}
+#Image-0{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+}
+#P-0{
+    color:gold;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    line-height: 110px;
+}
+a{
+    text-decoration: none;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    display: inline-block;
+    width: 100px;
+    line-height: 110px;
+    text-align: center;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    height: 110px;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+main{
+    width: 70%;
+    background-color:white;
+    height: 520px;
+    position: relative;
+    float: right;
+    border-top: 5px dashed white;
+    animation: Decoration 10s 3s infinite alternate cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+}
+@keyframes Decoration {
+    0%{
+        background-color: white;
+    }
+    20%{
+        background-color:red;
+    }
+    40%{
+        background-color:green;
+    }
+    60%{
+        background-color:blue;
+    }
+    80%{
+        background-color:brown;
+    }
+    100%{
+        background-color:black;
+    }
+}
+article{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    position: absolute;
+    position: relative;
+    top: 10%;
+    left: 30%;
+    border-radius:10% 30%;
+    box-shadow: 10px 10px black;
+}
+div{
+    line-height:50px;
+    position: absolute;
+    top:17%;
+    text-align: center;
+    color: gold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-style: italic;
+    line-height:50px;
+}
+aside{
+    width: 30%;
+    height: 524px;
+    position: relative;
+}
+aside img{
+    width: 100%;
+    height:302px;
+}
+h1{
+    width: 100%;
+    height: 30px;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-image: url(https://images.pexels.com/photos/1149019/pexels-photo-1149019.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    position: absolute;
+    top:57%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed red;
+    line-height: 30px;
+}
+#Image-2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed red;
+    position: absolute;
+    left: 15%;
+    top:80%;
+}
+#Image-3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed green;
+    position: absolute;
+    left: 30%;
+    top:65%;
+}
+#Image-4{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed blue;
+    position: absolute;
+    left: 45%;
+    top:80%;
+}
+#Image-5{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px dashed brown;
+    position: absolute;
+    left: 60%;
+    top:65%;
+}
+#Thead-1{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-1,#Input-2,#Input-3,#Input-4,#Input-5,#Input-6,#Input-7,#Input-8,#Input-9{
+    text-align: end;
+    margin-right: 5px;
+}
+#Tbody-1{
+    background-color: green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-2{
+    width: 191px;
+}
+#Tbody-2{
+    background-color:blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-3{
+    width: 167px;
+}
+#Tbody-3{
+    background-color:brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-4{
+    width: 173px;
+}
+#Tfoot-1{
+    background-color:black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Button-1{
+    padding: 10px 15px;
+}
+#P-1{
+    width: 100%;
+    background-color: red;
+    height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+.Image{
+    width: 200px;
+    height: 200px;
+}
+#P-2{
+    width: 100%;
+    background-color: green;
+    height: 50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: italic;
+    line-height: 50px;
+    text-align: center;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+.Button{
+    padding:15px 10px;
+}
+#Thead-2{
+    background-color: red;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-5{
+    width: 174px;
+}
+#Tbody-4{
+    background-color:green;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Tbody-5{
+    background-color: blue;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-7{
+    width: 187px;
+}
+#Tbody-6{
+    background-color: brown;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-8{
+    width:206px;
+}
+#Tfoot-2{
+    background-color: black;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+#Input-9{
+    width:189px;
+}
+#Button-2{
+    padding: 10px 15px;
+}
+#Marquee-1{
+    width:100%;
+    background-color: red;
+    height: 50px;
+    line-height:50px;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    border-top: 5px dashed gold;
+    border-bottom: 5px dashed gold;
+}
+#Main{
+    width:800px;
+    height:203px;
+    border: 5px dashed black;
+    background-color: white;
+    position: relative;
+    animation: none;
+}
+#Article-1,#Article-2,#Article-3,#Article-4{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    border-radius: 0%;
+    left: 0%;
+    color: gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
+}
+#Article-1{
+    left: 0%;
+    background-color: red;
+    line-height:50px;
+}
+#Article-2{
+   left:25%;
+   background-color: green;
+   line-height:50px;
+}
+#Article-3{
+    left:50%;
+    background-color:blue;
+    line-height:35px;
+}
+#Article-4{
+    left:75%;
+    background-color:brown;
+    line-height:50px;
+}
+@media only screen and (min-width:0px) and (max-width:480px){
+    span{
+        display: none;
+    }
+    main{
+        width:100%;
+        position: relative;
+    }
+    article{
+        position: absolute;
+        left:6%;
+    }
+    aside{
+        float: right;
+        width:100%;
+    }
+    #Table-1{
+        transform: translate(45%,150%);
+    }
+    #Button-1{
+        transform: translate(155%,490%);
+    }
+    .Table{
+        width:100%;
+    }
+    .Td{
+        text-align: center;
+    }
+    .Button{
+        width:100%;
+        padding:8px 0px;
+    }
+    #Table-2{
+        transform: translate(35%,150%);
+    }
+    #Button-2{
+        transform: translate(130%,500%);
+    }
+    #Main{
+        width:100%;
+        height:302px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        width: 120px;
+        height:300px;
+        box-shadow: none;
+    }
+    #Article-1{
+       line-height: 60px;
+    }
+    #Article-2{
+        line-height: 40px;
+     }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    span{
+        width:35%;
+        background-color: blue;
+        height:110px;
+    }
+    #Image-0{
+        width: 90px;
+        height: 100px;
+        border: 5px dashed red;
+    }
+    #P-0{
+        font-size: large;
+    }
+    aside{
+      width: 35%;
+      position: relative;
+    }
+    #Image-2{
+        position: absolute;
+        left:5%;
+    }
+    #Image-3{
+        position: absolute;
+        left:20%;
+    }
+    #Image-4{
+        position: absolute;
+        left:35%;
+    }
+    #Image-5{
+        position: absolute;
+        left:50%;
+    }
+    main{
+        width: 65%;
+        position: relative;
+    }
+    article{
+        width:35%;
+        position: absolute;
+        left:10%;
+        width: 400px;
+        height: 400px;
+    }
+    #Table-1{
+        transform: translate(100%,150%);
+    }
+    #Button-1{
+        transform: translate(270%,491%);
+    }
+    .Table{
+        width: 100%;
+    }
+    .Image{
+        width: 325px;
+        height:202px;
+        transform: translateY(2%);
+    }
+    .Td{
+        text-align: center;
+    }
+    .Button{
+        width:100%;
+        padding: 5px 0px;
+    }
+    #Table-2{
+        transform: translate(100%,150%);
+    }
+    #Button-2{
+        transform: translate(265%,500%);
+    }
+    #Main{
+       width:100%;
+       height:202px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+       width: 181px;
+       height: 200px;
+       box-shadow: none;       
+    }
+    #Article-2{
+        line-height:40px;
+        transform: translateX(0%);
+        width:182px;
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1279px) {
+    span{
+        width:37%;
+        background-color: brown;
+        height:110px;
+    }
+    #Image-0{
+        width:100px;
+        height: 100px;
+    }
+    #P-0{
+        font-size: xx-large;
+    }
+    aside{
+        width: 37%;
+        position: relative;
+    }
+    #Image-2{
+        position: absolute;
+        left:10%;
+    }
+    #Image-3{
+        position: absolute;
+        left:25%;
+    }
+    #Image-4{
+        position: absolute;
+        left:40%;
+    }
+    #Image-5{
+        position: absolute;
+        left:55%;
+    }
+    main{
+        width: 63%;
+        position:relative;
+    }
+    article{
+        position: absolute;
+        left:25%;
+    }
+    #Table-1{
+        transform: translate(200%,150%);
+    }
+    #Button-1{
+        transform: translate(485%,491%);
+    }
+    .Table{
+        width: 100%;
+    }
+    .Image{
+        width: 600px;
+    }
+    .Td{
+        text-align: center;
+    }
+    .Button{
+        width: 100%;
+    }
+    #Table-2{
+        transform: translate(200%,150%);
+    }
+    #Button-2{
+        transform: translate(480%,498%);
+    }
+    #Main{
+        width:100%;
+        height:152px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        width:319px;
+        box-shadow: none;
+        height:150px;
+    }
+}
+@media only screen and (min-width:1280px){
+    span{
+        background-color: black;
+    }
+    nav{
+        background-color: red;
+    }
+    #Table-1{
+        transform: translate(250%,150%);
+    }
+    #Button-1{
+        transform: translate(590%,491%);
+    }
+    .Table{
+        width: 100%;
+    }
+    .Image{
+        width:640px;
+    }
+    .Td{
+        text-align: center;
+    }
+    .Button{
+        width: 100%;
+    }
+    #Table-2{
+        transform: translate(200%,150%);
+    }
+    #Button-2{
+        transform: translate(475%,498%);
+    }
+    #Main{
+        width: 100%;
+        height: 153px;
+    }
+    #Article-1,#Article-2,#Article-3,#Article-4{
+        width: 340px;
+        box-shadow: none;
+        height:150px;
+    }
+}
